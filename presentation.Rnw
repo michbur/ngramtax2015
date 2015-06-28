@@ -1,0 +1,72 @@
+\documentclass[10pt]{beamer}
+\usetheme{Warsaw}
+\usepackage{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[notocbib]{apacite}
+
+
+\setbeamertemplate{caption}{\centering\insertcaption\par}
+\setlength{\belowcaptionskip}{15pt}
+\renewcommand{\thetable}{}
+
+\providecommand{\e}[1]{\ensuremath{\times 10^{#1}}}
+
+\begin{document}
+
+
+\date{}
+\author{Micha\l{}  Burdukiewicz}
+\institute{ 
+University of Wroc\l{}aw, Department of Genomics, Poland}
+
+\title{n-grams in alignment-free sequence analysis}
+
+
+\begin{frame}
+\maketitle
+
+<<echo = FALSE,message=FALSE,results='asis'>>=
+library(reshape2)
+library(ggplot2)
+library(grid)
+library(biogram)
+library(xtable)
+library(seqinr)
+library(signalHsmm)
+
+theme_presentation <- theme(plot.background=element_rect(fill = "transparent",
+                                                   colour = "transparent"),
+                      plot.margin = unit(c(1,1,1,1), "cm"),
+                      axis.text.x = element_text(size=7), 
+                      axis.text.y = element_text(size=7),
+                      axis.title.x = element_text(size=11, vjust = -1), 
+                      axis.title.y = element_text(size=11, vjust = 1),
+                      strip.text = element_text(size=11),
+                      legend.text = element_text(size=7), 
+                      legend.title = element_text(size=11),
+                      plot.title = element_text(size=17),
+                      panel.grid.major = element_line(colour="lightgrey", linetype = "dashed"),
+                      panel.background = element_rect(fill = "transparent",colour = "black"),
+                      legend.background = element_rect(fill="NA"))
+
+@
+
+
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Outline}
+\tableofcontents
+\end{frame}
+
+\section{Motivation}
+
+
+\begin{frame}
+To reduce dimensionality of the problem, signalHsmm aggregates amino acids to four physicochemical groups.
+\end{frame}
+
+\end{document}

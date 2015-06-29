@@ -98,7 +98,7 @@ Although alignment-free methods can be used to recover topology of a phylogeny, 
 \end{frame}
 }
 
-\section{n-gram distances}
+\section{n-gram count methods}
 
 \subsection{simple n-gram distance}
 
@@ -114,7 +114,7 @@ d_{ngram} \left( Q, S \right) = \sum_{i = 1}^{u^n} (q_i - s_i)^2
 \end{equation}
 
 \begin{itemize}
-\item $d_{ngram}$: distance between n-grams;
+\item $d_{ngram}$: n-grams distance between sequences;
 \item $q_i$: frequency of the i-th of $u^n$ possible substrings of length $n$ in $Q$;
 \item $s_i$: frequency of the i-th of $u^n$ possible substrings of length $n$ in $S$;
 \end{itemize}
@@ -125,19 +125,21 @@ d_{ngram} \left( Q, S \right) = \sum_{i = 1}^{u^n} (q_i - s_i)^2
 The simple n-gram distance is not powerful when applied to very similar sequences~\cite{hohl_is_2007}.
 \end{frame}
 
-\subsection{Zero-order Markov method}
+\subsection{Frequency corrections}
 
 \begin{frame}
 
-The zero-order Markov method substracts bias background~\cite{pride_evolutionary_2003}.
+The frequency of words varies between sequences independently of their relationships.
 
-
-\begin{equation}
-E(W) = n \prod_{j \in u} f_j^j
-\end{equation}
+Practical corrections to remove random background:
+\begin{itemize}
+\item zero-order Markov method substracts background~\cite{pride_evolutionary_2003};
+\item composition vector method~\cite{qi_whole_2004};
+\item feature frequency profile~\cite{sims_whole-genome_2011}.
+\end{itemize}
 \end{frame}
 
-\subsection{Composition vector}
+\subsection{Composition vector method}
 
 \begin{frame}
 The composition vector method substracts random background by normalizing counts of the n-grams~\cite{qi_whole_2004}.
@@ -147,18 +149,76 @@ d_{cv} \left( Q, S \right) = \frac{1 - C(Q, S)}{2}
 \end{equation}
 
 \begin{equation}
-C(Q, S) = \frac{\sum{q_i s_i}}{\sqrt{\sum{q_i^2} \sum{s_i^2}}}
+C(Q, S) = \frac{\sum{q_{ni} s_{ni}}}{\sqrt{\sum{q_{ni}^2} \sum{s_{ni}^2}}}
 \end{equation}
+
+\begin{itemize}
+\item $d_{cv}$: composition vector distance;
+\item $q_{i}$: normalized frequency of the i-th of $u^n$ possible substrings of length $n$ in $Q$;
+\item $s_{i}$: normalized frequency of the i-th of $u^n$ possible substrings of length $n$ in $S$.
+\end{itemize}
+
+
+
+\end{frame}
+
+\section{Semi-grammar methods}
+
+\begin{frame}
+
+Closely related sequences contain more exact matches than divergent sequences~\cite{kurtz_versatile_2004}.
+
+Differences between semi-grammar methods and n-gram methods:
+\begin{itemize}
+\item no longer requires specifying $n$;
+\item preserves sequence of the substrings;
+\item potentially much longer computation time.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+
+Suffix tree allows quicker deconstruction of the sequence.
+
+See:
+$$S = \textrm{TCCT\$}$$
+
+
+\end{frame}
+
+\section{Grammar methods}
+
+\begin{frame}
+
+A grammar is a set of rules for decomposing a string into its elements.
+
+$$\textrm{TCCT} \rightarrow \textrm{T}_1 \textrm{C}_2 \textrm{T}_1 $$
+
+Differences between semi-grammar methods and grammar methods:
+\begin{itemize}
+\item even slower than grammar methods;
+\item calculates mutation distances.
+\end{itemize}
 
 \end{frame}
 
 
+\begin{frame}
 
+Common methods of compression: Lempel-Ziv factorization, average common substring.
+
+\medskip
+
+Grammar methods are the msot powerful aligment-free methods~\cite{otu_new_2003}, but are more sensitive to imperfections in data.
+\end{frame}
 
 \section{References}
 
-\begin{frame}
+\begin{frame}[allowframebreaks]
+
+
 \bibliography{kmer_filo}
+
 \end{frame}
 
 \end{document}

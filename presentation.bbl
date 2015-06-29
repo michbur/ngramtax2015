@@ -63,6 +63,74 @@ Höhl, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kurtz%
+\ \protect \BOthers {.}}{%
+Kurtz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+kurtz_versatile_2004}
+\APACinsertmetastar {%
+kurtz_versatile_2004}%
+\begin{APACrefauthors}%
+Kurtz, S.%
+, Phillippy, A.%
+, Delcher, A\BPBI L.%
+, Smoot, M.%
+, Shumway, M.%
+, Antonescu, C.%
+\BCBL {}\ \BBA {} Salzberg, S\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Versatile and open software for comparing large genomes}
+  {Versatile and open software for comparing large genomes}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Genome Biology}{5}{2}{R12}.
+\newblock
+\begin{APACrefURL}
+  [{2015-06-29}]\url{http://genomebiology.com/2004/5/2/R12/abstract}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1186/gb-2004-5-2-r12} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Otu%
+\ \BBA {} Sayood%
+}{%
+Otu%
+\ \BBA {} Sayood%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+otu_new_2003}
+\APACinsertmetastar {%
+otu_new_2003}%
+\begin{APACrefauthors}%
+Otu, H\BPBI H.%
+\BCBT {}\ \BBA {} Sayood, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{{\APACmonth{11}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A new sequence distance measure for phylogenetic tree
+  construction} {A new sequence distance measure for phylogenetic tree
+  construction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Bioinformatics}{19}{16}{2122--2130}.
+\newblock
+\begin{APACrefURL}
+  [{2015-06-29}]\url{http://bioinformatics.oxfordjournals.org/content/19/16/2122}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1093/bioinformatics/btg295} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Ounit%
 , Wanamaker%
 , Close%
@@ -160,6 +228,40 @@ Qi, J.%
 \APACjournalVolNumPages{Journal of Molecular Evolution}{58}{1}{1--11}.
 \newblock
 \begin{APACrefDOI} \doi{10.1007/s00239-003-2493-7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sims%
+\ \BBA {} Kim%
+}{%
+Sims%
+\ \BBA {} Kim%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+sims_whole-genome_2011}
+\APACinsertmetastar {%
+sims_whole-genome_2011}%
+\begin{APACrefauthors}%
+Sims, G\BPBI E.%
+\BCBT {}\ \BBA {} Kim, S\BHBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{{\APACmonth{05}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Whole-genome phylogeny of {Escherichia} coli/{Shigella}
+  group by feature frequency profiles ({FFPs})} {Whole-genome phylogeny of
+  {Escherichia} coli/{Shigella} group by feature frequency profiles
+  ({FFPs})}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of
+  Sciences}{108}{20}{8329--8334}.
+\newblock
+\begin{APACrefURL} [{2015-06-29}]\url{http://www.pnas.org/content/108/20/8329}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1073/pnas.1105168108} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

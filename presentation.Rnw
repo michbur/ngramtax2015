@@ -6,6 +6,7 @@
 \usepackage{amsmath}
 \usepackage[notocbib]{apacite}
 
+\bibliographystyle{apacite}
 
 \setbeamertemplate{caption}{\centering\insertcaption\par}
 \setlength{\belowcaptionskip}{15pt}
@@ -17,7 +18,7 @@
 
 
 \date{}
-\author{Micha\l{}  Burdukiewicz}
+\author{Micha\l{} Burdukiewicz}
 \institute{ 
 University of Wroc\l{}aw, Department of Genomics, Poland}
 
@@ -66,7 +67,98 @@ theme_presentation <- theme(plot.background=element_rect(fill = "transparent",
 
 
 \begin{frame}
-To reduce dimensionality of the problem, signalHsmm aggregates amino acids to four physicochemical groups.
+Sequence comparision methods:
+\begin{itemize}
+\item alignment-based,
+\item alignment-free.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+Alignment-free, n-gram based methods for sequence comparison are usually faster, do not require scoring schemes, do not require gene selection.
+
+\smallskip
+
+Usual application: metagenomics~\cite{wood_kraken:_2014, ounit_clark:_2015}.
+\end{frame}
+
+\begin{frame}
+Although alignment-free methods can be used to recover topology of a phylogeny, they cannot represent lengths of the branches, which require number of substititutions per site. Despite that, some n-gram based methods can also calculate branch lenghts~\cite{yi_co-phylog:_2013}.
+\end{frame}
+
+\begin{frame}
+Although alignment-free methods can be used to recover topology of a phylogeny, they cannot represent lengths of the branches, which require number of substititutions per site. Despite that, some n-gram based methods can also calculate branch lenghts~\cite{yi_co-phylog:_2013}.
+\end{frame}
+
+\AtBeginSection[]
+{
+\begin{frame}<beamer>
+\frametitle{Outline}
+\tableofcontents[currentsection]
+\end{frame}
+}
+
+\section{n-gram distances}
+
+\subsection{simple n-gram distance}
+
+\begin{frame}
+First usage of n-gram analysis: differences of overlapping and countinous 2- or 3-grams between sets of sequences~\cite{blaisdell_measure_1986}.
+\end{frame}
+
+\begin{frame}
+We consider only two sequences, $Q$ and $S$, that contain only symbols from the alphabet $u$.
+
+\begin{equation}
+d_{ngram} \left( Q, S \right) = \sum_{i = 1}^{u^n} (q_i - s_i)^2
+\end{equation}
+
+\begin{itemize}
+\item $d_{ngram}$: distance between n-grams;
+\item $q_i$: frequency of the i-th of $u^n$ possible substrings of length $n$ in $Q$;
+\item $s_i$: frequency of the i-th of $u^n$ possible substrings of length $n$ in $S$;
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+The simple n-gram distance is not powerful when applied to very similar sequences~\cite{hohl_is_2007}.
+\end{frame}
+
+\subsection{Zero-order Markov method}
+
+\begin{frame}
+
+The zero-order Markov method substracts bias background~\cite{pride_evolutionary_2003}.
+
+
+\begin{equation}
+E(W) = n \prod_{j \in u} f_j^j
+\end{equation}
+\end{frame}
+
+\subsection{Composition vector}
+
+\begin{frame}
+The composition vector method substracts random background by normalizing counts of the n-grams~\cite{qi_whole_2004}.
+
+\begin{equation}
+d_{cv} \left( Q, S \right) = \frac{1 - C(Q, S)}{2}
+\end{equation}
+
+\begin{equation}
+C(Q, S) = \frac{\sum{q_i s_i}}{\sqrt{\sum{q_i^2} \sum{s_i^2}}}
+\end{equation}
+
+\end{frame}
+
+
+
+
+\section{References}
+
+\begin{frame}
+\bibliography{kmer_filo}
 \end{frame}
 
 \end{document}

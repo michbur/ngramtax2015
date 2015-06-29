@@ -1,0 +1,227 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Blaisdell%
+}{%
+Blaisdell%
+}{%
+{\protect \APACyear {1986}}%
+}]{%
+blaisdell_measure_1986}
+\APACinsertmetastar {%
+blaisdell_measure_1986}%
+\begin{APACrefauthors}%
+Blaisdell, B\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1986}{{\APACmonth{07}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A measure of the similarity of sets of sequences not
+  requiring sequence alignment.} {A measure of the similarity of sets of
+  sequences not requiring sequence alignment.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Proceedings of the National Academy of Sciences of the
+  United States of America}{83}{14}{5155--5159}.
+\newblock
+\begin{APACrefURL}
+  [{2015-06-28}]\url{http://www.ncbi.nlm.nih.gov/pmc/articles/PMC323909/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Höhl%
+\ \BBA {} Ragan%
+}{%
+Höhl%
+\ \BBA {} Ragan%
+}{%
+{\protect \APACyear {2007}}%
+}]{%
+hohl_is_2007}
+\APACinsertmetastar {%
+hohl_is_2007}%
+\begin{APACrefauthors}%
+Höhl, M.%
+\BCBT {}\ \BBA {} Ragan, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2007}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Is {Multiple}-{Sequence} {Alignment} {Required} for
+  {Accurate} {Inference} of {Phylogeny}?} {Is {Multiple}-{Sequence} {Alignment}
+  {Required} for {Accurate} {Inference} of {Phylogeny}?}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Systematic Biology}{56}{2}{206--221}.
+\newblock
+\begin{APACrefURL}
+  [{2015-06-29}]\url{http://sysbio.oxfordjournals.org/content/56/2/206}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1080/10635150701294741} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ounit%
+, Wanamaker%
+, Close%
+\BCBL {}\ \BBA {} Lonardi%
+}{%
+Ounit%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2015}}%
+}]{%
+ounit_clark:_2015}
+\APACinsertmetastar {%
+ounit_clark:_2015}%
+\begin{APACrefauthors}%
+Ounit, R.%
+, Wanamaker, S.%
+, Close, T\BPBI J.%
+\BCBL {}\ \BBA {} Lonardi, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{CLARK}: fast and accurate classification of metagenomic
+  and genomic sequences using discriminative k-mers} {{CLARK}: fast and
+  accurate classification of metagenomic and genomic sequences using
+  discriminative k-mers}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{BMC Genomics}{16}{1}{236}.
+\newblock
+\begin{APACrefURL}
+  [{2015-06-28}]\url{http://www.biomedcentral.com/1471-2164/16/236/abstract}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1186/s12864-015-1419-2} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Pride%
+, Meinersmann%
+, Wassenaar%
+\BCBL {}\ \BBA {} Blaser%
+}{%
+Pride%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2003}}%
+}]{%
+pride_evolutionary_2003}
+\APACinsertmetastar {%
+pride_evolutionary_2003}%
+\begin{APACrefauthors}%
+Pride, D\BPBI T.%
+, Meinersmann, R\BPBI J.%
+, Wassenaar, T\BPBI M.%
+\BCBL {}\ \BBA {} Blaser, M\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{{\APACmonth{02}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Evolutionary implications of microbial genome
+  tetranucleotide frequency biases} {Evolutionary implications of microbial
+  genome tetranucleotide frequency biases}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Genome Research}{13}{2}{145--158}.
+\newblock
+\begin{APACrefDOI} \doi{10.1101/gr.335003} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Qi%
+, Wang%
+\BCBL {}\ \BBA {} Hao%
+}{%
+Qi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2004}}%
+}]{%
+qi_whole_2004}
+\APACinsertmetastar {%
+qi_whole_2004}%
+\begin{APACrefauthors}%
+Qi, J.%
+, Wang, B.%
+\BCBL {}\ \BBA {} Hao, B\BHBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2004}{{\APACmonth{01}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Whole proteome prokaryote phylogeny without sequence
+  alignment: a {K}-string composition approach} {Whole proteome prokaryote
+  phylogeny without sequence alignment: a {K}-string composition
+  approach}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Journal of Molecular Evolution}{58}{1}{1--11}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s00239-003-2493-7} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wood%
+\ \BBA {} Salzberg%
+}{%
+Wood%
+\ \BBA {} Salzberg%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+wood_kraken:_2014}
+\APACinsertmetastar {%
+wood_kraken:_2014}%
+\begin{APACrefauthors}%
+Wood, D\BPBI E.%
+\BCBT {}\ \BBA {} Salzberg, S\BPBI L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{{\APACmonth{03}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Kraken: ultrafast metagenomic sequence classification
+  using exact alignments} {Kraken: ultrafast metagenomic sequence
+  classification using exact alignments}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Genome Biology}{15}{3}{R46}.
+\newblock
+\begin{APACrefURL}
+  [{2015-06-28}]\url{http://genomebiology.com/2014/15/3/R46/abstract}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1186/gb-2014-15-3-r46} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Yi%
+\ \BBA {} Jin%
+}{%
+Yi%
+\ \BBA {} Jin%
+}{%
+{\protect \APACyear {2013}}%
+}]{%
+yi_co-phylog:_2013}
+\APACinsertmetastar {%
+yi_co-phylog:_2013}%
+\begin{APACrefauthors}%
+Yi, H.%
+\BCBT {}\ \BBA {} Jin, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2013}{{\APACmonth{04}}}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Co-phylog: an assembly-free phylogenomic approach for
+  closely related organisms} {Co-phylog: an assembly-free phylogenomic approach
+  for closely related organisms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Nucleic Acids Research}{41}{7}{e75}.
+\newblock
+\begin{APACrefDOI} \doi{10.1093/nar/gkt003} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

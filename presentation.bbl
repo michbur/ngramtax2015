@@ -131,43 +131,6 @@ Otu, H\BPBI H.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Ounit%
-, Wanamaker%
-, Close%
-\BCBL {}\ \BBA {} Lonardi%
-}{%
-Ounit%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2015}}%
-}]{%
-ounit_clark:_2015}
-\APACinsertmetastar {%
-ounit_clark:_2015}%
-\begin{APACrefauthors}%
-Ounit, R.%
-, Wanamaker, S.%
-, Close, T\BPBI J.%
-\BCBL {}\ \BBA {} Lonardi, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2015}{{\APACmonth{03}}}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{CLARK}: fast and accurate classification of metagenomic
-  and genomic sequences using discriminative k-mers} {{CLARK}: fast and
-  accurate classification of metagenomic and genomic sequences using
-  discriminative k-mers}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{BMC Genomics}{16}{1}{236}.
-\newblock
-\begin{APACrefURL}
-  [{2015-06-28}]\url{http://www.biomedcentral.com/1471-2164/16/236/abstract}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1186/s12864-015-1419-2} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Pride%
 , Meinersmann%
 , Wassenaar%
@@ -262,39 +225,6 @@ Sims, G\BPBI E.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1073/pnas.1105168108} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Wood%
-\ \BBA {} Salzberg%
-}{%
-Wood%
-\ \BBA {} Salzberg%
-}{%
-{\protect \APACyear {2014}}%
-}]{%
-wood_kraken:_2014}
-\APACinsertmetastar {%
-wood_kraken:_2014}%
-\begin{APACrefauthors}%
-Wood, D\BPBI E.%
-\BCBT {}\ \BBA {} Salzberg, S\BPBI L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2014}{{\APACmonth{03}}}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Kraken: ultrafast metagenomic sequence classification
-  using exact alignments} {Kraken: ultrafast metagenomic sequence
-  classification using exact alignments}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Genome Biology}{15}{3}{R46}.
-\newblock
-\begin{APACrefURL}
-  [{2015-06-28}]\url{http://genomebiology.com/2014/15/3/R46/abstract}
-  \end{APACrefURL}
-\newblock
-\begin{APACrefDOI} \doi{10.1186/gb-2014-15-3-r46} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

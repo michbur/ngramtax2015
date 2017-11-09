@@ -22,7 +22,7 @@
 \institute{ 
 University of Wroc\l{}aw, Department of Genomics, Poland}
 
-\title{n-grams in alignment-free sequence analysis}
+\title{MethanoGram and alignment-free phylogeny}
 
 
 \begin{frame}
@@ -67,28 +67,49 @@ theme_presentation <- theme(plot.background=element_rect(fill = "transparent",
 
 
 \begin{frame}
-Sequence comparision methods:
+MethanoGram is able to relate frequency of n-grams derived from molecular markers to culture conditions.
+
+\medskip
+
+n-gram frequency is reflecting phylogenetic relationships between bacterial strains which are direcly associated with culture conditions.
+ \end{frame}
+
+\begin{frame}
+Alignment-free, n-gram based methods for sequence comparison:
 \begin{itemize}
-\item alignment-based,
-\item alignment-free.
+\item are usually faster, 
+\item do not require scoring schemes,
+\item \textbf{do not require gene selection}.
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+\textit{More than just a gut feeling: constraint-based genome-scale metabolic models for predicting functions of human intestinal microbes}, Willem M de Vos Laboratory, Microbiome 2017
+
+Input: Genome-scale metabolic models (GEMs).
+
+Results:
+\begin{itemize}
+\item the prediction of minimal, synthetic, or defined media; 
+\item the prediction of possible functions and phenotypes; 
+\item the prediction of interspecies interactions.
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Aim}
+Replace GEMs with improved n-gram analysis.
+
+Challanges:
+\begin{itemize}
+\item more diverse species; 
+\item lower quality of data; 
+\item longer branches.
 \end{itemize}
 \end{frame}
 
-\begin{frame}
-Alignment-free, n-gram based methods for sequence comparison are usually faster, do not require scoring schemes, do not require gene selection.
-
-\smallskip
-
-Usual application: metagenomics~\cite{wood_kraken:_2014, ounit_clark:_2015}.
-\end{frame}
-
-\begin{frame}
-Although alignment-free methods can be used to recover topology of a phylogeny, they cannot represent lengths of the branches, which require number of substititutions per site. Despite that, some n-gram based methods can also calculate branch lenghts~\cite{yi_co-phylog:_2013}.
-\end{frame}
-
-\begin{frame}
-Although alignment-free methods can be used to recover topology of a phylogeny, they cannot represent lengths of the branches, which require number of substititutions per site. Despite that, some n-gram based methods can also calculate branch lenghts~\cite{yi_co-phylog:_2013}.
-\end{frame}
 
 \AtBeginSection[]
 {
@@ -98,9 +119,13 @@ Although alignment-free methods can be used to recover topology of a phylogeny, 
 \end{frame}
 }
 
-\section{n-gram count methods}
+\section{Improvements of MethanoGram}
 
-\subsection{simple n-gram distance}
+\begin{frame}
+Although alignment-free methods can be used to recover topology of a phylogeny, they cannot represent lengths of the branches, which require number of substititutions per site. Despite that, some n-gram based methods can also calculate branch lenghts~\cite{yi_co-phylog:_2013}.
+\end{frame}
+
+\subsection{Simple n-gram distance}
 
 \begin{frame}
 First usage of n-gram analysis: differences of overlapping and countinous 2- or 3-grams between sets of sequences~\cite{blaisdell_measure_1986}.
@@ -209,8 +234,10 @@ Common methods of compression: Lempel-Ziv factorization, average common substrin
 
 \medskip
 
-Grammar methods are the msot powerful aligment-free methods~\cite{otu_new_2003}, but are more sensitive to imperfections in data.
+Grammar methods are the msot powerful aligment-free methods~\cite{otu_new_2003}, but are \textbf{more sensitive} to imperfections in data.
 \end{frame}
+
+
 
 \section{References}
 
